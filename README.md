@@ -6,19 +6,20 @@ The core of IVAD was collected from the real Smart #1 vehicle. To enhance the va
 
 The interpretation of the feature columns in the file is as follows:
 
-CANID：The ID segment carries information about the source and priority of a message. It distinguishes different types of messages and facilitates message filtering.
-Data1-8：The Data segment contains the actual payload or information that is being transmitted. This segment can vary in size, depending on the DLC value specified in the previous segment.
-Label：The label of the traffic is used to differentiate whether the flow is malicious or not. Here, ‘1’ represents an malicious message while ‘0’ represents a normal message.
+CANID：The ID segment carries information about the source and priority of a message. It distinguishes different types of messages and facilitates message filtering.  
+Data1-8：The Data segment contains the actual payload or information that is being transmitted. This segment can vary in size, depending on the DLC value specified in the previous segment.  
+Label：The label of the traffic is used to differentiate whether the flow is malicious or not. Here, ‘1’ represents an malicious message while ‘0’ represents a normal message.  
 
 The classifications and quantities of attacks included in IVAD are illustrated as follows:
 --------------------
-Nomal: 2542535
-DoS attack: 587521
-Fuzzy attack: 590531
-Replay attack: 96357
-Gear Spoof attack: 597252
-RPM Spoof attack: 654897
-Malfunction attack: 15974
----------------------------
+Nomal: 2542535  
+DoS attack: 587521  
+Fuzzy attack: 590531  
+Replay attack: 96357  
+Gear Spoof attack: 597252  
+RPM Spoof attack: 654897  
+Malfunction attack: 15974  
 Total 5085067
+---------------------------
+
 
